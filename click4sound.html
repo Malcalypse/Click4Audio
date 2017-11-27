@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Click4Sound</title>
+	<meta charset="Utf-8">
+</head>
+
+<body>
+
+<style>
+
+p {
+	text-align: center;
+}
+
+</style>
+
+<p>
+<image src="http://celebmix.com/wp-content/uploads/2016/04/top-5-nirvana-songs-01.jpg" width="700px">
+
+<p>
+	<input type="image" src="https://imageog.flaticon.com/icons/png/512/26/26025.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF" width="100px" onclick="play()">
+
+<p>
+
+<image src="http://celebmix.com/wp-content/uploads/2016/04/top-5-nirvana-songs-01.jpg">
+
+<audio id="audio">
+	<source src="///home/malcalypse/the_odin_project/experimenting/mpthreetest.mp3" type="audio/mp3">
+</audio>
+
+</body>
+</html>
+
+
+<script>
+
+
+
+var button = document.querySelector('.button');
+
+
+
+function play(){
+	var audio = document.getElementById("audio");
+	audio.play();
+}
+
+
+</script>
